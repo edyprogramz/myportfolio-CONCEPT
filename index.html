@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a08586baa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- header  -->
+     <div id="header">
+        <div class="container">
+            <nav>
+               <img src="image/name.png" alt=""> 
+               <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+               </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/upright1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h3>About Me</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor unde aut voluptate eaque, nulla modi laboriosam beatae in, asperiores commodi recusandae alias soluta fugiat maiores enim, molestiae distinctio dolorum perferendis libero mollitia! Eum, facilis commodi eaque vitae laboriosam voluptates ducimus, quasi minus accusantium quia voluptate exercitationem a. Nulla, incidunt alias.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing nice looking websites</li>
+                            <li><span>Web Development</span><br>Web app building</li>
+                            <li><span>App Development</span><br>Android/Ios application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - current</span><br>Worked on startapp LLC</li>
+                            <li><span>2015 - 2016</span><br>Built a backend of Airtel Mpesa</li>
+                            <li><span>2010 - 2011</span><br>Worked on UI/UX of a Safaricom LLC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX TRAINING</li>
+                            <li><span>2015</span><br>MBA from MIT Bangalore</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem Lorem ipsum, dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas eos sit delectus aliquid voluptas debitis minima? Atque ducimus placeat harum eius fuga, optio sed nesciunt distinctio, adipisci, aliquid cumque enim modi. Consectetur, temporibus et? Repudiandae quo ullam sed eos animi earum tempore, repellat, nobis nesciunt corrupti excepturi ratione, vitae similique? consectetur adipisicing elit. Nostrum ducimus totam officia est iusto nihil sapiente temporibus distinctio laboriosam deleniti. ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur laudantium ipsum, veniam quam dicta assumenda repellendus, debitis provident animi incidunt nemo voluptatum, error magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur laudantium ipsum, veniam quam dicta assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur suscipit, similique minus soluta pariatur debitis quaerat dolorum exercitationem voluptas. repellendus, debitis provident animi incidunt nemo voluptatum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur suscipit veniam nesciunt amet, ut dolore! Qui magni aliquam eius iure pariatur voluptatibus possimus repudiandae cumque tenetur quo officia earum magnam velit minus debitis amet odio placeat, recusandae praesentium eaque veniam laboriosam non. Corrupti adipisci, accusantium optio quidem deserunt omnis? error magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio ipsum consequatur voluptatum porro non ipsam voluptas doloremque aspernatur, animi deserunt officiis dolorem labore nesciunt? Quidem qui at eveniet perferendis consequatur harum quibusdam assumenda ut, iste pariatur officiis vel hic distinctio tenetur praesentium quis! Fugiat dolores doloremque magni repellat nostrum! ipsum dolor sit amet consectetur adipisicing elit. Quidem quia beatae modi explicabo possimus magnam officiis eveniet, veniam perferendis repudiandae! Similique consectetur laudantium ipsum, veniam quam dicta assumenda repellendus, debitis provident animi incidunt nemo voluptatum, error magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/phone1.jpg" alt="" id="img1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit asperiores perspiciatis aspernatur, tempora, illum libero debitis quis dolore id, officiis consequatur voluptatem. Magni, distinctio praesentium!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/phone2.jpg" alt="" id="img2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit asperiores perspiciatis aspernatur, tempora, illum libero debitis quis dolore id, officiis consequatur voluptatem. Magni, distinctio praesentium!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/phone3.jpg" alt="" id="img3">
+                    <div class="layer">
+                        <h3>Online shop App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit asperiores perspiciatis aspernatur, tempora, illum libero debitis quis dolore id, officiis consequatur voluptatem. Magni, distinctio praesentium!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact  -->
+    <div id="contact"></div>
+    <script src="index.js"></script>
+</body>
+</html>
